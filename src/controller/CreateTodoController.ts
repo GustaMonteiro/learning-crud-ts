@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
-import { CreateTodoService } from "../service/createTodoService";
-
+import { CreateTodoService } from "../service/CreateTodoService";
 
 export class CreateTodoController {
     async handle(req: Request, res: Response) {

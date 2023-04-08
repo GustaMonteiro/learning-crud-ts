@@ -1,7 +1,7 @@
 import { db } from "../database/dataSource";
 import { Todo } from "../database/entity/Todo";
 
-export class getAllTodoService {
+export class GetAllTodoService {
     async execute() {
         const repo = db.getRepository(Todo);
 
